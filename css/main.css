@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+/* section 1 */
+.bg-img {
+  background:linear-gradient(#530060,#b5077c);
+  background-position: bottom;
+  height: 100vh;
+  padding: 40vh 40vw;
+  width: 100vw;
+}
+
+.logo-white {
+  width: 25vw;
+}
+
+.bt-1 {
+  display:inline-block;
+}
+
+.sec-2 {
+  background-image: url("../assets/images/carro.png");
+  background-size: cover;
+  background-position: bottom;
+  height: 100vh;
+
+}
