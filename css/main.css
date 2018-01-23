@@ -1,7 +1,4 @@
-body {
-  margin: 0;
-  padding: 0;
-}
+
 /* section 1 */
 .bg-img {
   background:linear-gradient(#530060,#b5077c);
@@ -15,14 +12,27 @@ body {
   width: 25vw;
 }
 
-.bt-1 {
-  display:inline-block;
-}
 
-.sec-2 {
+/*section 2 background  */
+.backg {
   background-image: url("../assets/images/carro.png");
   background-size: cover;
-  background-position: bottom;
-  height: 100vh;
+  min-height: 100vh;
+}
 
+/* logo white */
+.lg-white {
+  width: 30vw;
+}
+
+/*logo pink  */
+.lg-pink {
+  margin-top: 15vh;
+  width: 50vw;
+}
+
+/* bt sec2 */
+.style-bt {
+  border: 1px solid white;
+  margin-top: 30vh;
 }
